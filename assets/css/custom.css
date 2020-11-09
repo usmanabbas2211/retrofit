@@ -1,0 +1,34 @@
+/* my-css-custom */
+.list {
+  display: block;
+  width: 100%;
+}
+.img-res {
+  width: 100px;
+}
+.card-body-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter {
+  list-style-type: none;
+  line-height: 30px;
+  color: red;
+  cursor: pointer;
+}
+.search-results {
+  position: absolute;
+  z-index: 1;
+  width: 17%;
+  border-radius: 5px;
+}
+
+.search-results li {
+  background-color: white;
+  list-style-type: none;
+  margin-left: 5px;
+  color: grey;
+  padding: 10px;
+  cursor: pointer;
+}
